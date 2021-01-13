@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>Kuy! Ngopi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+    </script>
+   
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />	
+    <link href="css/fontawesome-all.css" rel="stylesheet">    
+	<link href="//fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Prata" rel="stylesheet">
+   
+</head>
+
+
+<body>
+	<!--Header-->
+	<header>
+		<div class="header_top" id="home">
+			<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+                <a class="navbar-brand">NGOPIYUK.SBY</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+				    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link cool" href="#">Homepage
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link cool" href="profile.html">Profile</a>
+						</li>						
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle cool" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+							    aria-expanded="false">
+								Cafés
+								<i class="fas fa-angle-down"></i>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="cafes.html">List Café</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="map.html">Peta</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+    
+
+    <section class="banner-bottom-agileinfo">
+        <div class="container" style="text-align: center;">
+            <img src="images/logo.jpg" style="height: 250px;">
+            <!--
+            <p style="font-size:80px;">WELCOME</p>
+            <h6>to my homepage for web programming assignment</h6>
+            <p>Maisie Chiara Salsabila - 05111840000057</p>
+            -->
+		</div>
+	</section>
+    
+	<!--footer-->
+	<footer>		
+        <div class="footer-bottom-agileinfo">				
+            <div class="footer-cpy text-center">
+                <div class="footer-social">
+                    <div class="copyrighttop">
+                        <ul>					
+                            <li>
+                                <a class="facebook" href="vt.tiktok.com/ZSneUGLX">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="tiktok" class="svg-inline--fa fa-tiktok fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width: 15px;"><path fill="currentColor" d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"></path></svg><br>
+                                    <span>Tiktok</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="facebook" href="https://www.instagram.com/mcsbil/">
+                                    <i class="fab fa-instagram"></i><br>
+                                    <span>Instagram</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="copyrightbottom-agile">
+                    <p>Maisie Chiara Salsabila - 05111840000057 <i class="far fa-hand-peace"></i> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+	
+	
+	<!--//model-->
+	<!-- js -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- //js -->
+
+	<!--//required-js-files-->
+	<!-- start-smooth-scrolling -->
+	<script src="js/move-top.js"></script>
+	<script src="js/easing.js"></script>
+	<script>
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 900);
+			});
+		});
+	</script>
+	<!-- start-smooth-scrolling -->
+</body>
+
+</html>
